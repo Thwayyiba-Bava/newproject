@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+  <header class="header">
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+      <div class="navbar-header">
+        <a href=""><img class="logo" src="logo.png"></a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#toggleMobileMenu"
+        aria-controls="toggleMobileMenu"
+        aria-expanded="false"
+        aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav ms-auto text-center">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">About</a></li>
+          <li><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        
+    </div>
+  </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="banner-container">
+
+        <div class="container">
+          <div class="left-section">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni repellat nobis s velit sapiente tenetur.</p>
+          
+          <div class="right-section">
+            <h4>Please fill the form</h4>
+            <form action="">
+              <div class="Input-group">
+                <input type="text" id="name" required />
+                <label for="name">Name</label>
+             </div>
+              <div class="Input-group">
+                <input type="email" id="email" required />
+                <label for="email">Email</label>
+             </div>
+              <div class="Input-group">
+                <input type="password" id="password" required />
+                <label for="password">Password</label>
+             </div>
+
+              <div class="submit-section">
+                <input type="submit" class="submit-button">
+              </div>
+            </form>
+          </div>
+        
+          <div class="signin-section">
+            <div class="sign-up">
+              <button>Sign In</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="mt-5 p-2">
+      <div class="text-center">
+        <h2>ABOUT</h2>
+      </div>
+      <div class="row pt-3">
+        <div class="col-12 col-md-8 text-justify mb-2">
+        <p>
+          <strong>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ducimus incidunt maxime eos amet esse ad voluptatem veniam earum, tempore laudantium id sit aspernatur quisquam numquam necessitatibus est. Obcaecati, nobis.
+          </strong>
+        </p>
+        <p>
+          A static website is one that has web pages stored on the server in the format that is sent to a client web browser. It is primarily coded in Hypertext Markup Language (HTML); Cascading Style Sheets (CSS) are used to control appearance beyond basic HTML. Images are commonly used to create the desired appearance and as part of the main content. Audio or video might also be considered "static" content if it plays automatically or is generally non-interactive. This type of website usually displays the same information to all visitors. Similar to handing out a printed brochure to customers or clients, a static website will generally provide consistent, standard information for an extended period of time. Although the website owner may make updates periodically, it is a manual process to edit the text, photos, and other content and may require basic website design skills and software. Simple forms or marketing examples of websites, such as classic website, a five-page website or a brochure website are often static websites, because they present pre-defined, static information to the user. This may include information about a company and its products and services through text, photos, animations, audio/video, and navigation menus.
+        </p>
+        <button class="btn btn-outline-primary" type="button">Know More</button>
+        </div>
+        <div class="col-12 col-md-4 mb-2">
+          <img src="image.jpg" class="img-fluid">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
